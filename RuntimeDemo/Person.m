@@ -10,4 +10,7 @@
 
 @implementation Person
 
+-(void)logShowTest{
+    NSLog(@"这是一个人");
+}
 @end

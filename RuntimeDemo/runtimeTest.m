@@ -7,7 +7,14 @@
 //
 
 #import "runtimeTest.h"
-
+#import "Person.h"
 @implementation runtimeTest
+
+-(instancetype)init{
+    self = [super init];
+    Person *  person = [[Person  alloc]init];
+    [person logShowTest];
+    return self;
+}
 
 @end

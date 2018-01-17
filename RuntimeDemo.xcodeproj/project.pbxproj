@@ -13,6 +13,8 @@
 		18A7A9761EE146C9007B7630 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A7A9741EE146C9007B7630 /* Main.storyboard */; };
 		18A7A9781EE146C9007B7630 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 18A7A9771EE146C9007B7630 /* Assets.xcassets */; };
 		18A7A97B1EE146C9007B7630 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 18A7A9791EE146C9007B7630 /* LaunchScreen.storyboard */; };
+		18A7A9841EE146E5007B7630 /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 18A7A9831EE146E5007B7630 /* Person.m */; };
+		18AFA2451EE15DA000178A2F /* runtimeTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 18AFA2441EE15DA000178A2F /* runtimeTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,10 @@
 		18A7A9771EE146C9007B7630 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		18A7A97A1EE146C9007B7630 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		18A7A97C1EE146C9007B7630 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		18A7A9821EE146E5007B7630 /* Person.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		18A7A9831EE146E5007B7630 /* Person.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		18AFA2431EE15DA000178A2F /* runtimeTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = runtimeTest.h; sourceTree = "<group>"; };
+		18AFA2441EE15DA000178A2F /* runtimeTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = runtimeTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +68,10 @@
 				18A7A96F1EE146C9007B7630 /* AppDelegate.m */,
 				18A7A9711EE146C9007B7630 /* ViewController.h */,
 				18A7A9721EE146C9007B7630 /* ViewController.m */,
+				18A7A9821EE146E5007B7630 /* Person.h */,
+				18A7A9831EE146E5007B7630 /* Person.m */,
+				18AFA2431EE15DA000178A2F /* runtimeTest.h */,
+				18AFA2441EE15DA000178A2F /* runtimeTest.m */,
 				18A7A9741EE146C9007B7630 /* Main.storyboard */,
 				18A7A9771EE146C9007B7630 /* Assets.xcassets */,
 				18A7A9791EE146C9007B7630 /* LaunchScreen.storyboard */,
@@ -153,6 +163,8 @@
 			files = (
 				18A7A9731EE146C9007B7630 /* ViewController.m in Sources */,
 				18A7A9701EE146C9007B7630 /* AppDelegate.m in Sources */,
+				18AFA2451EE15DA000178A2F /* runtimeTest.m in Sources */,
+				18A7A9841EE146E5007B7630 /* Person.m in Sources */,
 				18A7A96D1EE146C9007B7630 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -204,7 +216,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
@@ -254,7 +266,7 @@
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
-				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_STRICT_OBJC_MSGSEND = NO;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -314,6 +326,7 @@
 				18A7A9811EE146C9007B7630 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
